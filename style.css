@@ -259,11 +259,11 @@ header.sticky{
     transform: translateY(-8px);
 }
 .portfolio{
-    background: var(--secound-bg-color);
+    background: rgb(20, 20, 20);
 }
 .portfolio-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(370px, auto));
+    grid-template-columns: repeat(auto, minmax(370px, auto));
     grid-gap: 2rem;
     align-items: center;
     margin-top: 4.5rem;
